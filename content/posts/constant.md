@@ -1,5 +1,6 @@
 ---
-title: "What I learned about Ruby constants"
+title: "Constants"
+description: "What I learned about Ruby constants"
 date: 2019-01-06T14:00:00-06:00
 ---
 
