@@ -4,7 +4,7 @@ description: "A synapses of my experince writing my first ruby gem."
 date: 2019-01-06T23:00:00-06:00
 ---
 
-So today someone came to me on [ruby on rails link](https://rubyonrails-link.slack.com) slack and told me I should try to turn [google-cli] (https://github.com/DavidKroncke/google-cli) 
+Today someone came to me on [ruby on rails link](https://rubyonrails-link.slack.com) slack and told me I should try to turn [google-cli] (https://github.com/DavidKroncke/google-cli) 
 into a Ruby Gem. He told me to start with a [tutorial](https://www.sitepoint.com/creating-your-first-gem/), during this tutorial I learned that Ruby Gem was already on my computer. Though with a few tries I finally got it!
 
 ![awesome_gem first usage with terminal and tutorial on screen](/images/gem-output.png)
