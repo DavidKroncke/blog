@@ -1,6 +1,6 @@
 ---
 title: "My First Ruby Gem"
-description: "A synapses of my experince writing my first ruby gem."
+description: "A synapses of my experience writing my first ruby gem."
 date: 2019-01-06T23:00:00-06:00
 ---
 
