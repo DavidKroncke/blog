@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+Constants
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="What I learned about Ruby constants">
+    
+<meta itemprop="name" content="Constants">
+<meta itemprop="description" content="What I learned about Ruby constants">
+
+
+<meta itemprop="datePublished" content="2019-01-06T14:00:00-06:00" />
+<meta itemprop="dateModified" content="2019-01-06T14:00:00-06:00" />
+<meta itemprop="wordCount" content="171">
+
+
+
+<meta itemprop="keywords" content="" />
+
+    <meta property="og:title" content="Constants" />
+<meta property="og:description" content="What I learned about Ruby constants" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://davidmurphy.netlify.com/blog/constant/" />
+
+
+
+<meta property="article:published_time" content="2019-01-06T14:00:00-06:00"/>
+
+<meta property="article:modified_time" content="2019-01-06T14:00:00-06:00"/>
+
+
+
+
+
+
+
+
+
+
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Constants"/>
+<meta name="twitter:description" content="What I learned about Ruby constants"/>
+
+    <style>
+    body { max-width: 800px; margin: auto; padding: 2em 1em; font-family: sans-serif; }
+    pre { padding: 1em; max-width: 100%; overflow-x: auto; }
+    img { max-width: 100%; }
+    ul.pagination { list-style: none; }
+    ul.pagination li { display: inline; }
+    ul.pagination li a { padding: 2em; }
+    input[type=email], textarea { width: 100%; padding: 1em; }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h3>
+        <a href=/>David Murphy</a>
+      </h3>
+      <a href=/blog/>Blog</a>
+    </nav>
+    
+    <main>
+      <h1>
+        Constants
+      </h1>
+      
+      <p>So today I got into the 3rd unit I did for <a href="https://exercism.io/my/tracks">excercism</a>, it was called Gigasecond. So I did struggle with a few things but I&rsquo;m going to focus on the main problem I had, which was methods. My biggest struggle was and has been up until now figuring out what to do for a method. I talked to some people in the Ruby On Rails chat that I&rsquo;m in and realized there are two seperate types of methods. Constant, and Instance, and with me being able to figure out the method, I looked more into constants. I realized that a constant can be used just by having a capital in something (or all caps) such as Gigasecond or GIGASECOND. ex:</p>
+
+<pre><code>class Gigasecond
+  GIGASECOND = 10 ** 9
+  def self.from(time)
+    time + GIGASECOND
+  end
+end
+</code></pre>
+
+<p>once I made GIGASECOND a constant (the constant being 10 ** 9 being 1,000,000,000) I realized I could use time + GIGASECOND(now being a constant) to figure out the time that the test was asking for.</p>
+
+    </main>
+    
+    <footer>
+      <hr>
+      <h2>I'm for hire, Contact Me!</h2>
+      <form name=footer-contact netlify>
+        <div>
+          <label>Email: <input name=email type=email required=true /></label>
+        </div>
+        <label>Message: <textarea name=message required=true rows=5></textarea></label>
+        <input name=ref type=hidden value="https://davidmurphy.netlify.com/blog/constant/" />
+        <input type=submit />
+      </form>
+    </footer>
+    <link href="/css/syntax.css" rel="stylesheet">
+  </body>
+</html>

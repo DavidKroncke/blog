@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/blog/ruby-on-rails-completed/</loc>
+    <lastmod>2019-01-12T19:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/blog/dont-give-up/</loc>
+    <lastmod>2019-01-07T21:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/blog/my-first-ruby-gem/</loc>
+    <lastmod>2019-01-06T23:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/blog/constant/</loc>
+    <lastmod>2019-01-06T14:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/project/google-cli/</loc>
+    <lastmod>2019-01-05T22:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/blog/my-first-post/</loc>
+    <lastmod>2019-01-05T21:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/</loc>
+    <lastmod>2019-01-12T19:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/page/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/page/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/blog/</loc>
+    <lastmod>2019-01-12T19:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/blog/first-time-seeing-ror/</loc>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/page/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/project/</loc>
+    <lastmod>2019-01-05T22:00:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davidmurphy.netlify.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
