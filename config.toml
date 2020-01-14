@@ -1,7 +1,6 @@
 baseURL = "https://davidmurphy.netlify.com/"
 languageCode = "en-us"
 title = "David Murphy"
-theme = "ghostwriter"
 copyright = "David Murphy"
 # googleAnalytics = "XXX"
 # disqusShortname = "XXX"
@@ -25,6 +24,7 @@ copyright = "David Murphy"
 [Params]
     intro = true
     headline = "David Murphy"
+    DefaultMetaDescription = "David Murphy's Personal Website"
     description = "Up and Coming Developer"
     github = "https://github.com/DavidKroncke"
     linkedin = "https://www.linkedin.com/in/david-kroncke-935636178/"

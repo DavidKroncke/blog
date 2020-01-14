@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on David Murphy</title>
+    <link>https://davidmurphy.netlify.com/project/</link>
+    <description>Recent content in Projects on David Murphy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>David Murphy</copyright>
+    <lastBuildDate>Sat, 05 Jan 2019 22:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://davidmurphy.netlify.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>google-cli</title>
+      <link>https://davidmurphy.netlify.com/project/google-cli/</link>
+      <pubDate>Sat, 05 Jan 2019 22:00:00 -0600</pubDate>
+      
+      <guid>https://davidmurphy.netlify.com/project/google-cli/</guid>
+      <description> google-cli google-cli was the first project I ever completed. It is a command line interface for google searches. I decided to make it for faster searches while coding.
+This is how it is used:
+$ google What is the answer to the ultimate question of life, the universe, and everything\?  </description>
+    </item>
+    
+  </channel>
+</rss>

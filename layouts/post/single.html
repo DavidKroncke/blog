@@ -1,0 +1,24 @@
+{{ define "title" }}{{ .Params.Title }}{{ end }}
+
+{{ define "main" }}
+<main>
+  <h1>
+    {{ .Params.Title }}
+  </h1>
+  {{ with .Resources.ByType "image" }}{{ range first 1 . }}
+  {{ $img := .Resize "750x" }}
+  <img src="{{ $img.RelPermalink }}" alt="{{ $.Params.Title }}" />
+  {{ end }}{{ end }}
+  {{ .Content }}
+  {{ with .Site.RegularPages.Related . | first 5}}
+  <hr>
+  <h2>Related Articles</h2>
+  <ul>
+  {{ range .}}
+  <li><a href="{{.Permalink}}">{{ .Title }}</a></li>
+  {{ end }}
+  </ul>
+  {{ end }}
+</main>
+{{ end }}
+

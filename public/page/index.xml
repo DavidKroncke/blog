@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on David Murphy</title>
+    <link>https://davidmurphy.netlify.com/page/</link>
+    <description>Recent content in Pages on David Murphy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>David Murphy</copyright>
+    
+	<atom:link href="https://davidmurphy.netlify.com/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://davidmurphy.netlify.com/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmurphy.netlify.com/page/about/</guid>
+      <description>About Me Hey, I&amp;rsquo;m David Murphy! I am currently learning how to develop in Ruby along with other developer skills such as navigating the linux terminal, using git, and roughly following test driven development practices.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://davidmurphy.netlify.com/page/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmurphy.netlify.com/page/contact/</guid>
+      <description>Contact Information Email: david.ryan.kroncke@gmail.com</description>
+    </item>
+    
+  </channel>
+</rss>
